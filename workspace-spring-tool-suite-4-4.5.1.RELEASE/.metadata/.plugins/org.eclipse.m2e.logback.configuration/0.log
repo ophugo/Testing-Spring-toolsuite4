@@ -1,1 +1,45 @@
-2020-03-02 18:43:11,868 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-03-02 18:54:33,588 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-03-02 18:55:42,623 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:2.2.4 @ /Users/ophugo/Documents/Testing-Spring-toolsuite4/workspace-spring-tool-suite-4-4.5.1.RELEASE/demo/pom.xml.
+2020-03-02 18:55:43,582 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2020-03-02 18:55:43,583 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2020-03-02 18:55:43,589 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2020-03-02 18:55:43,607 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2020-03-02 18:55:44,046 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2020-03-02 18:55:44,049 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-03-02 18:55:44,464 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:2.2.4 @ /Users/ophugo/Documents/Testing-Spring-toolsuite4/workspace-spring-tool-suite-4-4.5.1.RELEASE/demo/pom.xml.
+2020-03-02 18:55:44,745 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2020-03-02 18:55:44,745 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2020-03-02 18:55:44,746 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2020-03-02 18:55:44,746 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2020-03-02 18:55:45,415 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-03-02 18:55:46,369 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-02 18:55:46,378 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-02 18:55:46,391 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-02 18:55:46,395 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-02 18:55:46,395 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ophugo/Documents/Testing-Spring-toolsuite4/workspace-spring-tool-suite-4-4.5.1.RELEASE/demo/src/test/resources
+2020-03-02 18:56:20,199 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-02 18:56:20,201 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-02 18:56:20,201 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-02 18:56:20,204 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-02 18:56:20,204 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ophugo/Documents/Testing-Spring-toolsuite4/workspace-spring-tool-suite-4-4.5.1.RELEASE/demo/src/test/resources
+2020-03-02 18:56:35,189 [Worker-1: Launching Executing clean in _Users_ophugo_Documents_Testing-Spring-toolsuite4_workspace-spring-tool-suite-4-4.5.1.RELEASE_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ophugo/Documents/Testing-Spring-toolsuite4/workspace-spring-tool-suite-4-4.5.1.RELEASE/demo
+2020-03-02 18:56:35,190 [Worker-1: Launching Executing clean in _Users_ophugo_Documents_Testing-Spring-toolsuite4_workspace-spring-tool-suite-4-4.5.1.RELEASE_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean -Dstyle.color=always
+2020-03-02 18:56:37,117 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-02 18:56:37,118 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-02 18:56:37,119 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-02 18:56:37,121 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-02 18:56:37,121 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ophugo/Documents/Testing-Spring-toolsuite4/workspace-spring-tool-suite-4-4.5.1.RELEASE/demo/src/test/resources
+2020-03-02 18:56:53,653 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-03-02 18:56:56,502 [Worker-8: Launching demo (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ophugo/Documents/Testing-Spring-toolsuite4/workspace-spring-tool-suite-4-4.5.1.RELEASE/demo
+2020-03-02 18:56:56,503 [Worker-8: Launching demo (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B  -Dstyle.color=always
+2020-03-02 18:57:10,971 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2020-03-02 18:57:17,959 [Worker-6: Launching Executing clean in _Users_ophugo_Documents_Testing-Spring-toolsuite4_workspace-spring-tool-suite-4-4.5.1.RELEASE_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ophugo/Documents/Testing-Spring-toolsuite4/workspace-spring-tool-suite-4-4.5.1.RELEASE/demo
+2020-03-02 18:57:17,959 [Worker-6: Launching Executing clean in _Users_ophugo_Documents_Testing-Spring-toolsuite4_workspace-spring-tool-suite-4-4.5.1.RELEASE_demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean -Dstyle.color=always
+2020-03-02 18:57:19,637 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-02 18:57:19,637 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-02 18:57:19,638 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-02 18:57:19,639 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-02 18:57:19,640 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ophugo/Documents/Testing-Spring-toolsuite4/workspace-spring-tool-suite-4-4.5.1.RELEASE/demo/src/test/resources
+2020-03-02 18:59:55,631 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-03-02 19:02:14,387 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-03-02 19:03:19,908 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
