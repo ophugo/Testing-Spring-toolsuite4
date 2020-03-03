@@ -1,0 +1,319 @@
+
+!ENTRY org.eclipse.ui.ide 4 4 2020-03-02 18:47:23.380
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2020-03-02 18:47:23.380
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2020-03-02 18:47:23.380
+!MESSAGE Could not write workspace metadata '/Users/ophugo/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.root/9.tree'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ophugo/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.root/9.tree (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1381)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1168)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2333)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:509)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SESSION 2020-03-02 18:47:47.626 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=13.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ophugo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ophugo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-02 18:48:09.437
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-03-02 18:48:10.219
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-02 18:48:10.219
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@742dbac8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ce62e27,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-03-02 18:48:34.315
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-03-02 18:52:34.952 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=13.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ophugo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ophugo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-02 18:52:54.990
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-03-02 18:52:55.809
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-02 18:52:55.809
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f4fc18,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7187078a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-03-02 18:54:17.542
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-03-02 19:05:14.276 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=13.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ophugo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ophugo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-02 19:05:59.874
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-03-02 19:06:00.680
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-02 19:06:00.680
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f31937b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f4fc18,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-03-02 19:07:24.804
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-03-02 19:07:25.881 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=13.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ophugo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/Users/ophugo/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/ -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ophugo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-02 19:07:28.612
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-03-02 19:07:29.521
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-02 19:07:29.521
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41d84abb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54087bdb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-03-02 19:10:24.513
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-03-02 21:35:44.517 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=13.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ophugo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ophugo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-02 21:36:10.323
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-03-02 21:36:11.105
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-02 21:36:11.105
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1361e880,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3506bc8b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:53.994
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:53.995
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2a30b557[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=625)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:53.998
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:54.020
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.819
+!MESSAGE Boot LS startup time from start to initialized: 1816ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.847
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iOcJPOEwisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.849
+!MESSAGE subscribing to classpath changes: sts4.classpath.iOcJPOEw isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.851
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.852
+!MESSAGE subsribers = {sts4.classpath.iOcJPOEw=Send Classpath Notifications(130)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.853
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.853
+!MESSAGE project usingMocks ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.854
+!MESSAGE project FirstUnitTest ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.854
+!MESSAGE Preparing classpath changed notification usingMocks
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.854
+!MESSAGE project UnderstandingAsserts ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.855
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.855
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.855
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iOcJPOEw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.858
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.859
+!MESSAGE buffering callback sts4.classpath.iOcJPOEw usingMocks false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.859
+!MESSAGE Preparing classpath changed notification FirstUnitTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.860
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.862
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.862
+!MESSAGE buffering callback sts4.classpath.iOcJPOEw FirstUnitTest false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.863
+!MESSAGE Preparing classpath changed notification UnderstandingAsserts
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.863
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.865
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.865
+!MESSAGE buffering callback sts4.classpath.iOcJPOEw UnderstandingAsserts false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.866
+!MESSAGE executing callback sts4.classpath.iOcJPOEw 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:38:55.900
+!MESSAGE executing callback sts4.classpath.iOcJPOEw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:39:14.414
+!MESSAGE Preparing classpath changed notification FirstUnitTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:39:14.414
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:39:14.417
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:39:14.418
+!MESSAGE buffering callback sts4.classpath.iOcJPOEw FirstUnitTest false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:39:14.418
+!MESSAGE Preparing classpath changed notification UnderstandingAsserts
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:39:14.418
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:39:14.420
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:39:14.421
+!MESSAGE buffering callback sts4.classpath.iOcJPOEw UnderstandingAsserts false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:39:14.422
+!MESSAGE Preparing classpath changed notification usingMocks
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:39:14.422
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:39:14.425
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:39:14.426
+!MESSAGE buffering callback sts4.classpath.iOcJPOEw usingMocks false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:39:14.427
+!MESSAGE executing callback sts4.classpath.iOcJPOEw 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-02 21:39:14.447
+!MESSAGE executing callback sts4.classpath.iOcJPOEw SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-03-02 21:40:03.606
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
