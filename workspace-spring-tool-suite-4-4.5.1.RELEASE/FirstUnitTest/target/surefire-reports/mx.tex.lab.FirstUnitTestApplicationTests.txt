@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: mx.tex.lab.FirstUnitTestApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 1.433 s - in mx.tex.lab.FirstUnitTestApplicationTests
