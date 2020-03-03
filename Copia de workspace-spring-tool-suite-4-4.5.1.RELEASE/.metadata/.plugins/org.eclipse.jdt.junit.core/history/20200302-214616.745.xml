@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="usingMocks" project="usingMocks" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="mx.tex.lab.UsingMocksApplicationTests" time="0.0" displayname="UsingMocksApplicationTests" uniqueid="[engine:junit-jupiter]/[class:mx.tex.lab.UsingMocksApplicationTests]">
+    <testcase name="whenUseInjectMocksAnnotation_thenCorrect" classname="mx.tex.lab.UsingMocksApplicationTests" time="0.0" displayname="whenUseInjectMocksAnnotation_thenCorrect()" uniqueid="[engine:junit-jupiter]/[class:mx.tex.lab.UsingMocksApplicationTests]/[method:whenUseInjectMocksAnnotation_thenCorrect()]"/>
+    <testcase name="contextLoads" classname="mx.tex.lab.UsingMocksApplicationTests" time="0.0" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:mx.tex.lab.UsingMocksApplicationTests]/[method:contextLoads()]"/>
+    <testcase name="whenUseCaptorAnnotation_thenTheSame" classname="mx.tex.lab.UsingMocksApplicationTests" time="0.0" displayname="whenUseCaptorAnnotation_thenTheSame()" uniqueid="[engine:junit-jupiter]/[class:mx.tex.lab.UsingMocksApplicationTests]/[method:whenUseCaptorAnnotation_thenTheSame()]"/>
+    <testcase name="whenUseMockAnnotation_thenMockIsInjected" classname="mx.tex.lab.UsingMocksApplicationTests" time="0.0" displayname="whenUseMockAnnotation_thenMockIsInjected()" uniqueid="[engine:junit-jupiter]/[class:mx.tex.lab.UsingMocksApplicationTests]/[method:whenUseMockAnnotation_thenMockIsInjected()]"/>
+  </testsuite>
+</testrun>
