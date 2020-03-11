@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DragonRepositoryTest" project="testDatabase" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="mx.tex.lab.DragonRepositoryTest" time="0.272" displayname="DragonRepositoryTest" uniqueid="[engine:junit-jupiter]/[class:mx.tex.lab.DragonRepositoryTest]">
+    <testcase name="givenDragon_whenSave_theRetrieveSame" classname="mx.tex.lab.DragonRepositoryTest" time="0.272" displayname="givenDragon_whenSave_theRetrieveSame()" uniqueid="[engine:junit-jupiter]/[class:mx.tex.lab.DragonRepositoryTest]/[method:givenDragon_whenSave_theRetrieveSame()]"/>
+  </testsuite>
+</testrun>

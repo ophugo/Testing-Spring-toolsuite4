@@ -1,0 +1,5 @@
+package mx.tex.lab;
+
+public interface DragonRepository {
+
+}

@@ -1,0 +1,10 @@
+package mx.tex.lab;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import mx.tec.lab.entity.Dragon;
+
+public interface DragonRepository {
+
+}
