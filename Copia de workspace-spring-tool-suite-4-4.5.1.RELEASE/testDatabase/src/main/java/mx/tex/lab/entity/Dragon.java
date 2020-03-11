@@ -7,7 +7,7 @@ import javax.persistence.Id;
 public class Dragon {
 	@Id
 	private long id;
-	private String name;
+	public String name;
 	
 	public Dragon() {}
 	

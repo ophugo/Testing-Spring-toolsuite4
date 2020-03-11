@@ -785,3 +785,106 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2020-03-10 23:10:39,031 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-03-10 23:10:39,033 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-03-10 23:10:39,033 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-10 23:20:38,325 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-10 23:20:38,325 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-10 23:20:38,326 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-10 23:20:38,327 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-10 23:20:38,327 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-10 23:20:43,760 [Worker-23: Launching Executing test in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ophugo/Documents/Testing-Spring-toolsuite4/Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE/testDatabase
+2020-03-10 23:20:43,760 [Worker-23: Launching Executing test in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B test -Dstyle.color=always
+2020-03-10 23:20:51,079 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-10 23:20:51,081 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-10 23:20:51,082 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-10 23:20:51,083 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-10 23:20:51,084 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-10 23:22:30,525 [Worker-25: Launching Executing clean in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ophugo/Documents/Testing-Spring-toolsuite4/Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE/testDatabase
+2020-03-10 23:22:30,525 [Worker-25: Launching Executing clean in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean -Dstyle.color=always
+2020-03-10 23:22:32,451 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-10 23:22:32,451 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-10 23:22:32,453 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-10 23:22:32,454 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-10 23:22:32,455 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-10 23:22:40,611 [Worker-25: Launching Executing test in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ophugo/Documents/Testing-Spring-toolsuite4/Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE/testDatabase
+2020-03-10 23:22:40,611 [Worker-25: Launching Executing test in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B test -Dstyle.color=always
+2020-03-10 23:22:47,779 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-10 23:22:47,779 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-10 23:22:47,780 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-10 23:22:47,782 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-10 23:22:47,783 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:01:21,803 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: mx.tec.lab:testDatabase:2.2.5 @ /Users/ophugo/Documents/Testing-Spring-toolsuite4/Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE/testDatabase/pom.xml.
+2020-03-11 15:01:22,541 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:01:22,544 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:01:22,544 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:01:22,547 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:01:22,547 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:01:24,239 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:01:24,239 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:01:24,250 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:01:24,251 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:01:24,252 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:01:28,767 [Worker-30: Launching Executing test in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ophugo/Documents/Testing-Spring-toolsuite4/Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE/testDatabase
+2020-03-11 15:01:28,767 [Worker-30: Launching Executing test in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B test -Dstyle.color=always
+2020-03-11 15:01:34,697 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:01:34,698 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:01:34,699 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:01:34,701 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:01:34,702 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:04:01,791 [Worker-27: Launching Executing clean in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ophugo/Documents/Testing-Spring-toolsuite4/Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE/testDatabase
+2020-03-11 15:04:01,792 [Worker-27: Launching Executing clean in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean -Dstyle.color=always
+2020-03-11 15:04:03,802 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:04:03,802 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:04:03,803 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:04:03,804 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:04:03,804 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:04:14,359 [Worker-33: Launching Executing test in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ophugo/Documents/Testing-Spring-toolsuite4/Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE/testDatabase
+2020-03-11 15:04:14,359 [Worker-33: Launching Executing test in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B test -Dstyle.color=always
+2020-03-11 15:04:20,034 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:04:20,035 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:04:20,035 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:04:20,037 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:04:20,037 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:10:28,520 [Worker-35: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: mx.tec.lab:testDatabase:2.2.5 @ /Users/ophugo/Documents/Testing-Spring-toolsuite4/Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE/testDatabase/pom.xml.
+2020-03-11 15:10:28,771 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:10:28,773 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:10:28,773 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:10:28,775 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:10:28,775 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:10:30,322 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:10:30,322 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:10:30,329 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:10:30,331 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:10:30,331 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:10:43,444 [Worker-34: Launching Executing test in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ophugo/Documents/Testing-Spring-toolsuite4/Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE/testDatabase
+2020-03-11 15:10:43,444 [Worker-34: Launching Executing test in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B test -Dstyle.color=always
+2020-03-11 15:10:50,869 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:10:50,870 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:10:50,871 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:10:50,872 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:10:50,872 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:20:21,635 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:20:21,635 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:20:21,635 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:20:21,637 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:20:21,637 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:20:46,539 [Worker-39: Launching DragonRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:20:46,539 [Worker-39: Launching DragonRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:20:46,539 [Worker-39: Launching DragonRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:20:46,542 [Worker-39: Launching DragonRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:20:46,542 [Worker-39: Launching DragonRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:30:27,131 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:30:27,132 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:30:27,132 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:30:27,133 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:30:27,134 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:30:30,419 [Worker-47: Launching DragonRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:30:30,419 [Worker-47: Launching DragonRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:30:30,420 [Worker-47: Launching DragonRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:30:30,422 [Worker-47: Launching DragonRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:30:30,422 [Worker-47: Launching DragonRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:30:57,267 [Worker-40: Launching Executing test in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ophugo/Documents/Testing-Spring-toolsuite4/Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE/testDatabase
+2020-03-11 15:30:57,267 [Worker-40: Launching Executing test in _Users_ophugo_Documents_Testing-Spring-toolsuite4_Copia de workspace-spring-tool-suite-4-4.5.1.RELEASE_testDatabase] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B test -Dstyle.color=always
+2020-03-11 15:31:03,929 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:31:03,929 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 15:31:03,931 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 15:31:03,933 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 15:31:03,934 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

@@ -1184,3 +1184,59 @@ java.lang.NullPointerException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 23:04:47.967
 !MESSAGE executing callback sts4.classpath.nkHWYqfn SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-11 15:01:22.762
+!MESSAGE Preparing classpath changed notification testDatabase
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-11 15:01:22.763
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-11 15:01:22.765
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-11 15:01:22.767
+!MESSAGE buffering callback sts4.classpath.nkHWYqfn testDatabase false 79
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-11 15:01:22.768
+!MESSAGE executing callback sts4.classpath.nkHWYqfn 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-11 15:01:22.833
+!MESSAGE executing callback sts4.classpath.nkHWYqfn SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-11 15:10:29.032
+!MESSAGE Preparing classpath changed notification testDatabase
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-11 15:10:29.032
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-11 15:10:29.035
+!MESSAGE classpath=80 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-11 15:10:29.037
+!MESSAGE buffering callback sts4.classpath.nkHWYqfn testDatabase false 80
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-11 15:10:29.037
+!MESSAGE executing callback sts4.classpath.nkHWYqfn 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-11 15:10:29.049
+!MESSAGE executing callback sts4.classpath.nkHWYqfn SUCCESS [done]
+
+!ENTRY org.eclipse.jface.text 4 0 2020-03-11 15:20:42.394
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.getField(BinaryTypeBinding.java:1279)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotationBinding.buildTargetAnnotation(AnnotationBinding.java:173)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotationBinding.addStandardAnnotations(AnnotationBinding.java:79)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.retrieveAnnotations(BinaryTypeBinding.java:1691)
+	at org.eclipse.jdt.internal.compiler.lookup.ReferenceBinding.getAnnotations(ReferenceBinding.java:1052)
+	at org.eclipse.jdt.core.dom.TypeBinding.getAnnotations(TypeBinding.java:122)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getAnnotations(JavadocHover.java:1192)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.addAnnotations(JavadocHover.java:1149)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)

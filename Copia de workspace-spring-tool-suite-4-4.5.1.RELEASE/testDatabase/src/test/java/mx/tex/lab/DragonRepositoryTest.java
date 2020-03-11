@@ -20,10 +20,16 @@ public class DragonRepositoryTest {
 	
 	@Test
 	public void givenDragon_whenSave_theRetrieveSame() {
-		Dragon dragon = new Dragon(1,"Meraxes");
+		Dragon dragon = new Dragon(1,"Mexican");
 		dragonRepository.save(dragon);
 		
 		Dragon retrievedDragon = dragonRepository.findById(1L).orElse(null);
-		assertEquals("Meraxes", retrievedDragon.getName());
+		assertEquals("Mexican", retrievedDragon.getName());
+	}
+	
+	public void nameDragon() {
+		Dragon retrievedDragon = dragonRepository.findById(1L).orElse(null);
+		retrievedDragon.name = "Hugo";
+		assertEquals("Hugo", retrievedDragon.getName());
 	}
 }
