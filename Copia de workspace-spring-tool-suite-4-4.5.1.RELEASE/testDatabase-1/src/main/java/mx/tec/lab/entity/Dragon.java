@@ -31,8 +31,4 @@ public class Dragon {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	public void erase() {
-		this.name = null;
-	}
 }
