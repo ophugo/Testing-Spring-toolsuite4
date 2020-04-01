@@ -2465,6 +2465,7 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 12:09:55.911
 !MESSAGE Preparing classpath changed notification testDatabase
@@ -3195,5 +3196,7 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/testDatabase-
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 !SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2020-03-31 21:12:00.880
 !MESSAGE Cannot determine URI for '/testDatabase-1/src/test/resources/application.properties'.
+=======
+>>>>>>> parent of 7f84d77... deleted DatabaseTest0
 =======
 >>>>>>> parent of 7f84d77... deleted DatabaseTest0
