@@ -27,9 +27,27 @@ public class DragonRepositoryTest {
 		assertEquals("Meraxes", retrievedDragon.getName());
 	}
 	
-	//public void nameDragon() {
-	//	Dragon retrievedDragon = dragonRepository.findById(1L).orElse(null);
-	//	retrievedDragon.name = "Hugo";
-	//	assertEquals("Hugo", retrievedDragon.getName());
-	//}
+	@Test
+	public void givenDragon_whenSaved_changeName() {
+		Dragon blueEye = new Dragon(2,"powerBlue");
+		dragonRepository.save(blueEye);
+		
+		Dragon blueEyeToUpdate = dragonRepository.findById(2L).orElse(null);
+		blueEyeToUpdate.setName("redEye");
+		assertEquals("redEye", blueEyeToUpdate.getName());
+		
+	}
+	
+	@Test
+	public void givenDragon_whenSaved_erased() {
+		Dragon dragon1 = new Dragon(3,"errasedDragon");
+		dragonRepository.save(dragon1);
+		
+		Dragon dragon1eraser = dragonRepository.findById(3L).orElse(null);
+		dragon1eraser.erase();
+		
+		assertNull(dragon1eraser.name);
+		
+		
+	}
 }
